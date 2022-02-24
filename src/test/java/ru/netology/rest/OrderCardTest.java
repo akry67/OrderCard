@@ -19,7 +19,7 @@ import java.util.List;
 class ChromeTest {
 
     WebDriver driver;
-
+    
 
     @BeforeAll
     static void setupClass() {
