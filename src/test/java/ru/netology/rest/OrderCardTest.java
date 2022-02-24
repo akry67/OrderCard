@@ -19,11 +19,12 @@ import java.util.List;
 class ChromeTest {
 
     WebDriver driver;
-    
+
 
     @BeforeAll
     static void setupClass() {
-        WebDriverManager.chromedriver().setup();
+        System.setProperty("webdriver.chrome.driver", "C:\\tmp\\chromedriver.exe");
+        //WebDriverManager.chromedriver().setup();
     }
 
 
