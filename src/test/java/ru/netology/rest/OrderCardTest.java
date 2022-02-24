@@ -23,8 +23,7 @@ class ChromeTest {
 
     @BeforeAll
     static void setupClass() {
-        System.setProperty("webdriver.chrome.driver", "C:\\tmp\\chromedriver.exe");
-        //WebDriverManager.chromedriver().setup();
+        WebDriverManager.chromedriver().setup();
     }
 
 
